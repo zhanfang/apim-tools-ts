@@ -2,5 +2,13 @@
   "extends": [
     "tslint:recommended",
     "tslint-config-prettier"
-  ]
+  ],
+  "rules": {
+    // 关闭字母排序功能
+    "object-literal-sort-keys": false,
+    // 是否可以使用console
+    "no-console": false,
+    "ordered-imports": false,
+    "interface-name": false
+  }
 }
